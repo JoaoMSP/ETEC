@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Cadastro de Produtos e Serviços</title>
+        <link rel="stylesheet" href="style4.css">
+    </head>
+        <body>
+            <h1><strong>Cadastro de Produtos e Serviços</strong></h1>
+            <fieldset>
+                <form>
+                    <h2><strong>Tipo</strong></h2><br>
+                    <input type="radio"name="option" value="Produto"checked>Produto<br>
+                    <input type="radio"name="option" value="Serviço">Serviço
+                        <h2><strong>Dados do Produto/Serviço</strong></h2><br>
+                            <p><strong>Nome:</strong></p>
+                            <input type="text" name="name" required>
+                                    <p><strong>Preço:</strong></p>
+                                    <input type="text" name="price" required>
+                                        <p><strong>Categoria:</strong></p>
+                                        <select id="produtos"name="tipos">
+                                            <option value="Alimentos">Alimentos</option>
+                                            <option value="Bebidas">Bebidas</option>
+                                            <option value="Eletronicos">Eletrônicos</option>
+                                            <option value="Limpeza">Serviços de Limpeza</option>
+                                            <option value="Manutenção">Serviços de Manutenção</option>                             
+                                        </select>
+                                            <p><strong>Imagem:</strong></p><br>
+                                            <input type="file" id="image" name="image" accept="image/*">                                        
+                                                <p><strong>Descrição</strong></p><br>
+                                                <textarea id="descrição" name="descrição" rows="10" cols="100"></textarea><br><br>
+                                                    <input type="submit" value="Enviar">
+
+                </form>
+            </fieldset>
+        </body> 
+</html>           

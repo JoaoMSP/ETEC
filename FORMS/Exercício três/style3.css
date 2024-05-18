@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
+fieldset{
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color:#d7b5fd;
+    padding:10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin:0 auto;
+}
+input[type="text"] {
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    padding: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+input[type="email"] {
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    padding: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+input[type="date"] {
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    padding: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h2{
+    text-align: left;
+}
+input[type=submit]{
+    width:300px;
+    background-color: rgb(62, 10, 145);
+}
